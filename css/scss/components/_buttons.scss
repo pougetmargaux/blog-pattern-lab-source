@@ -1,0 +1,158 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+/**
+ * Button
+ */
+.c-btn-soumettre {
+	display: inline-block;
+	background-color: $color-gray-02;
+	color: $color-gray-inter;
+	padding : 9px 41px;
+	line-height: 1;
+	border: 0;
+	text-align: center;
+	transition: background 0.2s ease;
+	border: solid 2px $color-gray-02;
+	font-family: $font;
+
+	&:hover {
+		background-color: $color-white;
+		color: $color-green;
+		border: solid 2px $color-green;
+	}
+
+	&:focus {
+		background-color: $color-green;
+		color: $color-white;
+		border: solid 2px $color-green;
+	}
+
+	/**
+	 * Disabled button
+	 */
+	&.disabled {
+		background: $color-gray-02;
+		color: $color-gray-02;
+	}
+}
+
+/**
+ * Small button
+ */
+.c-btn-small {
+	padding: $pad-half;
+}
+
+/**
+ * Large button
+ */
+.c-btn-large {
+	padding: $pad-half;
+	text-transform: uppercase;
+	background : grey;
+	font-size: 1.4rem;
+	font-weight: normal;
+}
+
+/**
+ * Text button
+ */
+/**.c-text-btn {
+	position: relative;
+	background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    &:after {
+	    position: absolute;
+		content: "";
+		height: 20px;
+		width: 20px;
+		background: url("../../../images/icon-arrowhead.svg") no-repeat;
+	    top: 7px;
+		right: -26px;
+		transition: all 0.2s ease;
+	}
+
+	&:hover, &:focus {
+	    color: pink;
+
+	    &:after {
+		    right: -28px;
+	    }
+    }
+
+    .c-block-media--small & {
+	    font-size: 1rem;
+	}
+}
+
+/**
+ * Button on overlay
+ */
+
+ .c-btn--overlay {
+	 background: yellow;
+ }
+
+.c-btn-lire-small {
+	width:41px;
+	height: 15px;
+	border: solid 1px $color-green ;
+	border-radius: 8px;
+  display: inline-block;
+	background-color: $color-white;
+	color: $color-green;
+  text-align: center;
+	padding-bottom: 13px;
+	font-family: $font;
+	font-weight: 300;
+
+	&:focus {
+		background-color: $color-green;
+		color: $color-white;
+		border: solid 1px $color-green;
+		border-radius: 8px;
+	}
+}
+
+.c-btn-lire-big {
+	width:85px;
+	height:35px;
+	border: solid 2px $color-white;
+	border-radius: 7px;
+	display: inline-block;
+	text-align: center;
+	font-family: $font;
+	font-weight: 400;
+	font-size: 15pt;
+	color: $color-white;
+	background-color: transparent;
+
+	&:focus {
+		color: $color-green;
+		border: solid 2px $color-green;
+	}
+}
+
+.c-btn-voir-tout {
+	width:100px;
+	height:30px;
+	border: solid 2px $color-gray-03;
+	border-radius: 7px;
+	background-color: $color-white;
+	font-family: $font;
+	font-weight: 400;
+	font-size: 14pt;
+	color: $color-gray-03;
+	background-color: transparent;
+
+	&:focus {
+		background-color: $color-gray-03;
+		color: $color-white;
+		border: solid 2px $color-gray-03;
+	}
+}

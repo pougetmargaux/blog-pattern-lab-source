@@ -1,0 +1,17 @@
+.commentaire-saisi {
+  background-color: $color-white;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.contenu-commentaire {
+  margin-top: 12px;
+}
+
+.nom-personne-commentaire {
+  font-family: $font-secondary;
+  color: $color-green;
+  font-size: 14px;
+  font-weight: bold;
+}

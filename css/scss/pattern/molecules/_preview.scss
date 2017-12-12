@@ -1,0 +1,17 @@
+.ligne-preview {
+  width: 185px;
+  border-top: 3px solid $color-green;
+  margin: 2px auto 15px auto;
+
+}
+
+.fond-preview {
+  background-color: $color-white;
+  width: 275px;
+  padding: 22px;
+}
+
+.flexbox-preview {
+  display: flex;
+  justify-content: space-between;
+}

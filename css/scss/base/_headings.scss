@@ -1,0 +1,97 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1  {
+	font-size: 18px;
+	font-style: $font;
+	color: $color-gray-03;
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	line-height: 1.2;
+}
+
+/**
+ * Heading 3
+ */
+h3  {
+	//titres categories
+	font-size: 15px;
+	font-style: $font;
+	color: $color-gray-03;
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Heading 4
+ */
+h4  {
+	font-style: $font-secondary;
+	font-size: 15px;
+	color : $color-green;
+	font-weight: 400;
+}
+
+/**
+ * Heading 5
+ */
+h5 {
+
+}
+
+/**
+ * Heading 6
+ */
+
+
+p {
+	font-family: $font;
+	color: $color-gray-03;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.texte-titre-preview {
+	font-family: $font-secondary;
+	font-weight: bold;
+	font-size: 14px;
+	color: $color-gray-03;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.date-auteur-preview {
+	font-family: $font;
+	color: $color-green;
+	font-size: 11px;
+}
+
+.texte-extrait-preview {
+	font-family: $font;
+	color: $color-gray-03;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	height: 100px;
+}
+
+/**
+ * Subheading
+ */
+.subheading {
+	font-family: $font-secondary;
+	font-weight: normal;
+}
